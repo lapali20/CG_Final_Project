@@ -1,1 +1,1 @@
-# CG_Final_Project
+# Bài tập cuối kì môn Đồ họa máy tính 
