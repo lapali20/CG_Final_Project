@@ -5,5 +5,5 @@
   - [Running man](https://github.com/lapali20/CG_Final_Project/blob/main/Running_man/Running_man/Running_man/MainWindow.xaml) <br>
   
 ![gif1](Gif/Clock.gif) 
-![gif2](Gif/RunningMan.gif)
-![gif3](Gif/Chong_chong.gif)
+![gif2](Gif/Chong_chong.gif)
+![gif3](Gif/RunningMan.gif)
