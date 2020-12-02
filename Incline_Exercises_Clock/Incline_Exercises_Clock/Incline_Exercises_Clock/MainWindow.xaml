@@ -1,0 +1,94 @@
+﻿<Window x:Class="Incline_Exercises_Clock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Incline_Exercises_Clock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Canvas Width="800" Height="600"
+        ClipToBounds="True">
+        <Canvas.Resources>
+            <ControlTemplate x:Key="ClockHandTemplate">
+                <Polygon Points="-0.3, -1 -0.2, 8 0, 9 0.2, 8 0.3, -1"
+                            Fill="Navy" />
+            </ControlTemplate>
+            <ControlTemplate x:Key="SecondHandTemplate">
+                <Line X1="0" Y1="0"
+                      X2="80" Y2="0"
+                      Stroke="Red"
+                      StrokeThickness="1"/>
+            </ControlTemplate>
+            <ControlTemplate x:Key="HourTemplate">
+                <Line X1="0" Y1="0"
+                      X2="0" Y2="15"
+                      Stroke="Black"
+                      StrokeThickness="2"/>
+            </ControlTemplate>
+        </Canvas.Resources>
+        <Ellipse
+            Canvas.Left="303" Canvas.Top="150"
+            Width="200" Height="200"
+            Fill="lightgray" 
+            />
+        <Control Name="MinuteHand"
+                 Template="{StaticResource ClockHandTemplate}" Canvas.Left="405" Canvas.Top="254">
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="8." ScaleY="8."/>
+                    <RotateTransform Angle="0"/>
+                    <RotateTransform x:Name="ToAngleMinute"/>
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Control Name="HourHand"
+                 Template="{StaticResource ClockHandTemplate}" Canvas.Left="403" Canvas.Top="253">
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="6" ScaleY="6"/>
+                    <RotateTransform Angle="45"/>
+                    <RotateTransform x:Name="ToAngleHour" />
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Control Name="SecondHand"
+                 Template="{StaticResource SecondHandTemplate}" Canvas.Left="403" Canvas.Top="253">
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="0"/>
+                    <RotateTransform x:Name="ToAngleSecond" />
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Control Name="Hour12"
+                 Template="{StaticResource HourTemplate}" Canvas.Left="403" Canvas.Top="150" Height="10"/>
+        <Canvas.RenderTransform>
+            <TransformGroup>
+                <TranslateTransform X="0" Y="0"/>
+            </TransformGroup>
+        </Canvas.RenderTransform>
+        <Canvas.Triggers>
+            <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation
+                            Storyboard.TargetName="ToAngleHour"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:01:00.00" RepeatBehavior="Forever" SpeedRatio="1"/>
+                        <DoubleAnimation
+                            Storyboard.TargetName="ToAngleMinute"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:00:50.00" RepeatBehavior="Forever" SpeedRatio="12"/>
+                        <DoubleAnimation
+                            Storyboard.TargetName="ToAngleSecond"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:00:50.00" RepeatBehavior="Forever" SpeedRatio="60"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Canvas.Triggers>
+    </Canvas>
+</Window>

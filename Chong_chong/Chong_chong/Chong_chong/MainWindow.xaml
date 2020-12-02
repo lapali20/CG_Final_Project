@@ -1,0 +1,106 @@
+﻿<Window x:Class="Chong_chong.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chong_chong"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Canvas
+        ClipToBounds="True" HorizontalAlignment="Center" Width="800" Height="600" VerticalAlignment="Center" Background ="LightGreen">
+        <Canvas.Resources>
+            <ControlTemplate x:Key="WingTemplate">
+                <Polygon Points="0,0 -170,0 0,75 0,0"
+                      Stroke="Black" 
+                      Fill="Blue"
+                      StrokeThickness="3" Canvas.Left="400" Canvas.Top="300"/>
+            </ControlTemplate>
+        </Canvas.Resources>
+        <Rectangle Width="15" Height="400" Canvas.Left="390" Canvas.Top="200">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Brown">
+                </SolidColorBrush>
+            </Rectangle.Fill>
+            
+        </Rectangle>
+        <Control Name="Wing1"
+             Template="{StaticResource WingTemplate}" Canvas.Left="400" Canvas.Top="200">
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="0"/>
+                    <RotateTransform x:Name="Angle_1" Angle="0"/>
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Control Name="Wing2"
+                 Template="{StaticResource WingTemplate}" Canvas.Left="400" Canvas.Top="200" >
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <RotateTransform x:Name="Angle_2" Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Control Name="Wing3"
+                 Template="{StaticResource WingTemplate}" Canvas.Left="400" Canvas.Top="200" >
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <RotateTransform x:Name="Angle_3" Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Control Name="Wing4"
+                 Template="{StaticResource WingTemplate}" Canvas.Left="400" Canvas.Top="200" >
+            <Control.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <RotateTransform x:Name="Angle_4" Angle="360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Control.RenderTransform>
+        </Control>
+        <Canvas.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                <TranslateTransform X="0" Y="0"/>
+            </TransformGroup>
+        </Canvas.RenderTransform>
+        <Canvas.Triggers>
+            <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation
+                            Storyboard.TargetName="Angle_1"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:00:05.00" RepeatBehavior="Forever"/>
+                        <DoubleAnimation
+                            Storyboard.TargetName="Angle_2"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:00:05.00" RepeatBehavior="Forever"/>
+                        <DoubleAnimation
+                            Storyboard.TargetName="Angle_3"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:00:05.00" RepeatBehavior="Forever"/>
+                        <DoubleAnimation
+                            Storyboard.TargetName="Angle_4"
+                            Storyboard.TargetProperty="Angle"
+                            From="0.0" To="360.0"
+                            Duration="00:00:05.00" RepeatBehavior="Forever"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Canvas.Triggers>
+    </Canvas>
+</Window>

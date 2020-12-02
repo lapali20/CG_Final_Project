@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\bin\Debug\Incline_Exercises_Clock.exe.config
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\bin\Debug\Incline_Exercises_Clock.exe
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\bin\Debug\Incline_Exercises_Clock.pdb
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\MainWindow.g.cs
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\App.g.cs
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock_MarkupCompile.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock_MarkupCompile.lref
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\MainWindow.baml
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.g.resources
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.exe
+C:\Users\ADMIN\Desktop\CG_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\Incline_Exercises_Clock\obj\Debug\Incline_Exercises_Clock.pdb

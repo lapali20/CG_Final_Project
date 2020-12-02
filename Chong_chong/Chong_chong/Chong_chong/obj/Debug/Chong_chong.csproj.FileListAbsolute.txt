@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\bin\Debug\Chong_chong.exe.config
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\bin\Debug\Chong_chong.exe
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\bin\Debug\Chong_chong.pdb
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\MainWindow.g.cs
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\App.g.cs
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong_MarkupCompile.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong_MarkupCompile.lref
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\MainWindow.baml
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.g.resources
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.exe
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.pdb
+C:\Users\ADMIN\Desktop\CG_Clock\Chong_chong\Chong_chong\Chong_chong\obj\Debug\Chong_chong.csprojAssemblyReference.cache

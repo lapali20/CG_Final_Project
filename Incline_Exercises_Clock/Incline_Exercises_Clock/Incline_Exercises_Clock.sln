@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incline_Exercises_Clock", "Incline_Exercises_Clock\Incline_Exercises_Clock.csproj", "{8F91A1A2-7E38-42C8-A9D3-D3316E82F430}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F91A1A2-7E38-42C8-A9D3-D3316E82F430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F91A1A2-7E38-42C8-A9D3-D3316E82F430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F91A1A2-7E38-42C8-A9D3-D3316E82F430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F91A1A2-7E38-42C8-A9D3-D3316E82F430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAC089A0-5AE2-4440-ABA2-A18197359C0E}
+	EndGlobalSection
+EndGlobal
